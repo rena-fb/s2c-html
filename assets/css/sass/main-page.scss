@@ -1,0 +1,111 @@
+$light-pink-bg: #f27597;
+$ligh-blue-color: #34bac9;
+
+.wrapper-content-full-page {
+    background: #fcf6e3 url("../library/img/bg.png") repeat;
+    padding-top: 0.937em;
+    padding-bottom: 0.937em;
+    .hero_image {
+        width: 50%;
+        display: inline-block;
+        float: right;
+    }
+    .question-buttons{
+        width: 50%;
+        display: inline-block;
+        text-align: center;
+        padding-top: 3em;
+        h3{
+            font-weight: bolder;
+        }
+        a button{
+            background-color: $light-pink-bg;
+            border-radius: 0.2em;
+            -moz-border-radius: 0.2em;
+            -webkit-border-radius: 0.2em;
+            line-height: initial;
+            padding: 0.5em;
+            font-weight: bold;
+            font-size: large;
+            margin: 1.5em auto 0;
+            min-width: 328px;
+            -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+            -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+            box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+        }
+    }
+    .mainContentOfPage{
+
+    }
+    .main-sidebar{
+        .pregnancy-calculator{
+            margin-left: 3em;
+        }
+    }
+}
+.main-footer{
+    .site-logo a {
+        background-image: url("../library/img/safe2choose-logo.png");
+        background-repeat: no-repeat;
+        background-size: 263px 47px;
+        display: inline-block;
+        width: 263px;
+        height: 47px;
+    }
+    .social-m-footer .social-link a {
+        text-indent: 999px;
+        display: inline-block;
+        vertical-align: middle;
+        width: 1.5em;
+        height: 1.5em;
+        padding: 2em;
+        border-radius: 0.25em;
+        background-size: 1.375em 1.375em;
+    }
+    .icon-link--facebook a {
+        background: #3b5998 url("../library/svg/facebook.svg") center no-repeat;
+    }
+    .icon-link--twitter a {
+        background: #51abf1 url("../library/svg/twitter.svg") center no-repeat;
+    }
+    .icon-link--youtube a {
+        background: #cc181e url("../library/svg/youtube.svg") center no-repeat;
+    }
+    .footer-links ul li a{
+        color: #fff;
+        font-size: .8em;
+        padding: 1em 1.5em;
+    }
+    .copyright{
+        font-size: .6em;
+        color: #fff;
+    }
+}
+
+/*** Media Queries ***/
+@media (max-width: 992px) {
+    .wrapper-content-full-page {
+
+        .hero_image {
+            width: 100%;
+        }
+        .question-buttons{
+            width: 100%;
+            a button{
+                margin: 1em 10%;
+                width: 80%;
+                font-size: 14px;
+                min-width: initial;
+            }
+        }
+        .main-sidebar{
+            .pregnancy-calculator{
+                margin-left: 0;
+            }
+        }
+        .lastestNews{
+
+        }
+    }
+
+}

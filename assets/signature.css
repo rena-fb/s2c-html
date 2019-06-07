@@ -1,0 +1,11 @@
+body, html, div, a, h1, h2, h3, p, img{ margin: 0; padding: 0; }
+article{ margin: 0 auto; }
+div{ display: inline-block; padding: 1em 2em; }
+h1{ font-size: 20px; font-weight: 800; color: #34bac9; }
+h2{ font-size: 14px; font-weight: 800; color: #c6c6c6; }
+h3{ font-size: 14px; font-weight: 500; color: #c6c6c6; }
+p{ font-size: 14px; font-weight: 500; color:#ee4674; text-align: center; }
+section a { display: inline-block; color: #34bac9; text-decoration: none; margin: 0 0.25em;}
+.left-border{ border-left: 2px solid pink; }
+@font-face{font-family:rooney-sans;src:url(https://use.typekit.net/af/5ff01e/000000000000000000013506/26/l?subset_id=1&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/5ff01e/000000000000000000013506/26/d?subset_id=1&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/5ff01e/000000000000000000013506/26/a?subset_id=1&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:rooney-sans;src:url(https://use.typekit.net/af/798bc4/000000000000000000013503/26/l?subset_id=1&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/798bc4/000000000000000000013503/26/d?subset_id=1&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/798bc4/000000000000000000013503/26/a?subset_id=1&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;}@font-face{font-family:rooney-sans;src:url(https://use.typekit.net/af/2f0eb8/000000000000000000013502/26/l?subset_id=1&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/2f0eb8/000000000000000000013502/26/d?subset_id=1&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/2f0eb8/000000000000000000013502/26/a?subset_id=1&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}
+.tk-rooney-sans{font-family:"rooney-sans",sans-serif;}
