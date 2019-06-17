@@ -63,25 +63,25 @@ body {
   .wrapper-logo-search-bar .site-description {
     max-width: 11em !important; }
 
-.wrapper-main-navigation {
+.wrapper-menu-navigation {
   background: #34bac9; }
-  .wrapper-main-navigation .navbar-toggler {
+  .wrapper-menu-navigation .navbar-toggler {
     background-color: #f27597; }
-  .wrapper-main-navigation .navbar-nav .nav-item a:hover {
+  .wrapper-menu-navigation .navbar-nav .nav-item a:hover {
     background-color: #ee4674; }
-  .wrapper-main-navigation .navbar-nav .nav-item a:active {
+  .wrapper-menu-navigation .navbar-nav .nav-item a:active {
     background-color: #f27597; }
-  .wrapper-main-navigation .navbar-nav .nav-item a:focus {
+  .wrapper-menu-navigation .navbar-nav .nav-item a:focus {
     background-color: #ee4674; }
-  .wrapper-main-navigation .sub-menu {
+  .wrapper-menu-navigation .sub-menu {
     top: 60% !important;
     background-color: #ee4674;
     padding-left: 2em;
     padding-top: 0; }
-    .wrapper-main-navigation .sub-menu ul {
+    .wrapper-menu-navigation .sub-menu ul {
       background-color: #f27597;
       padding-left: 2px; }
-    .wrapper-main-navigation .sub-menu ul li {
+    .wrapper-menu-navigation .sub-menu ul li {
       list-style-type: none; }
 
 /*** Media Queries ***/
